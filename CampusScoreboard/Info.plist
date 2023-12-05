@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDisplayName</key>
+	<string>pick</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To use this feature, we require access to your photo and video library.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>To use this feature, we require access to your photo and video library.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>To use this feature, we require access to your photo and video library.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To use this feature, we require access to your photo and video library.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

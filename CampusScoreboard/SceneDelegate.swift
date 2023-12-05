@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CampusScoreboard
 //
-//  Created by 高瑞鸿 on 11/12/23.
+
 //
 
 import UIKit

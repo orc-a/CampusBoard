@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BC4B6EBCB5F07235F270D65 /* Pods_CampusScoreboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D20FC79793D18A63EBBB38 /* Pods_CampusScoreboard.framework */; };
 		9B1D860B2B00A660001EB487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D860A2B00A660001EB487 /* AppDelegate.swift */; };
 		9B1D860D2B00A660001EB487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D860C2B00A660001EB487 /* SceneDelegate.swift */; };
 		9B1D860F2B00A660001EB487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D860E2B00A660001EB487 /* ViewController.swift */; };
@@ -14,6 +15,34 @@
 		9B1D86152B00A660001EB487 /* CampusScoreboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86132B00A660001EB487 /* CampusScoreboard.xcdatamodeld */; };
 		9B1D86172B00A662001EB487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1D86162B00A662001EB487 /* Assets.xcassets */; };
 		9B1D861A2B00A662001EB487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1D86182B00A662001EB487 /* LaunchScreen.storyboard */; };
+		9B1D86222B00B275001EB487 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86212B00B275001EB487 /* HomeVC.swift */; };
+		9B1D86242B00B8AE001EB487 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86232B00B8AE001EB487 /* FollowVC.swift */; };
+		9B1D86262B00B8C4001EB487 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86252B00B8C4001EB487 /* DiscoveryVC.swift */; };
+		9B1D86282B00B8D6001EB487 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86272B00B8D6001EB487 /* CollectionVC.swift */; };
+		9B1D862A2B00BA0C001EB487 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86292B00BA0C001EB487 /* Constants.swift */; };
+		9B1D862D2B00E927001EB487 /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D862C2B00E927001EB487 /* WaterfallVC.swift */; };
+		9B1D862F2B00EE13001EB487 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D862E2B00EE13001EB487 /* WaterfallCell.swift */; };
+		9B1D86312B00FC23001EB487 /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86302B00FC23001EB487 /* TabBarC.swift */; };
+		9B1D86332B00FEDB001EB487 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86322B00FEDB001EB487 /* PostVC.swift */; };
+		9B1D86352B010077001EB487 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86342B010077001EB487 /* Extensions.swift */; };
+		9B1D86392B017A5B001EB487 /* NoteEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86382B017A5B001EB487 /* NoteEditVC.swift */; };
+		9B1D863B2B0181CC001EB487 /* photoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D863A2B0181CC001EB487 /* photoCell.swift */; };
+		9B1D863D2B018921001EB487 /* PhotoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D863C2B018921001EB487 /* PhotoFooter.swift */; };
+		9B1D86412B019482001EB487 /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86402B019482001EB487 /* NoteEditVC-DragDrop.swift */; };
+		9B1D86432B01995D001EB487 /* NoteEditVC-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86422B01995D001EB487 /* NoteEditVC-CollectionView.swift */; };
+		9B1D86452B01D0AD001EB487 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86442B01D0AD001EB487 /* ChannelVC.swift */; };
+		9B1D86472B01D1DB001EB487 /* ChannelTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86462B01D1DB001EB487 /* ChannelTableVC.swift */; };
+		9B1D86492B01D6AF001EB487 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86482B01D6AF001EB487 /* Protocols.swift */; };
+		9B1D864D2B03316E001EB487 /* NoteEditVC-UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D864C2B03316E001EB487 /* NoteEditVC-UI.swift */; };
+		9B1D86512B0348E9001EB487 /* NoteEditVC-DraftNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86502B0348E9001EB487 /* NoteEditVC-DraftNote.swift */; };
+		9B1D86562B040A8B001EB487 /* DraftNoteWaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86552B040A8B001EB487 /* DraftNoteWaterfallCell.swift */; };
+		9B1D86582B040C22001EB487 /* WaterfallVC-Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86572B040C22001EB487 /* WaterfallVC-Config.swift */; };
+		9B1D865A2B040C8F001EB487 /* WaterfallVC-LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86592B040C8E001EB487 /* WaterfallVC-LoadData.swift */; };
+		9B1D865C2B040D28001EB487 /* WaterfallVC-DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D865B2B040D28001EB487 /* WaterfallVC-DataSource.swift */; };
+		9B1D865E2B041E05001EB487 /* WaterfallVC-Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D865D2B041E05001EB487 /* WaterfallVC-Delegate.swift */; };
+		9B1D86602B0430A7001EB487 /* NoteEditVC-Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D865F2B0430A7001EB487 /* NoteEditVC-Helper.swift */; };
+		9B1D86622B043723001EB487 /* meVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1D86612B043723001EB487 /* meVC.swift */; };
+		9B9A6AF12B1D6DCB007F04EB /* LC-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A6AF02B1D6DCB007F04EB /* LC-Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +55,38 @@
 		9B1D86162B00A662001EB487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B1D86192B00A662001EB487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B1D861B2B00A662001EB487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1D86212B00B275001EB487 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9B1D86232B00B8AE001EB487 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		9B1D86252B00B8C4001EB487 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
+		9B1D86272B00B8D6001EB487 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		9B1D86292B00BA0C001EB487 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9B1D862C2B00E927001EB487 /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
+		9B1D862E2B00EE13001EB487 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
+		9B1D86302B00FC23001EB487 /* TabBarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
+		9B1D86322B00FEDB001EB487 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		9B1D86342B010077001EB487 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9B1D86382B017A5B001EB487 /* NoteEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditVC.swift; sourceTree = "<group>"; };
+		9B1D863A2B0181CC001EB487 /* photoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoCell.swift; sourceTree = "<group>"; };
+		9B1D863C2B018921001EB487 /* PhotoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFooter.swift; sourceTree = "<group>"; };
+		9B1D863F2B018D1D001EB487 /* CampusScoreboard-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CampusScoreboard-Header.h"; sourceTree = "<group>"; };
+		9B1D86402B019482001EB487 /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
+		9B1D86422B01995D001EB487 /* NoteEditVC-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-CollectionView.swift"; sourceTree = "<group>"; };
+		9B1D86442B01D0AD001EB487 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		9B1D86462B01D1DB001EB487 /* ChannelTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableVC.swift; sourceTree = "<group>"; };
+		9B1D86482B01D6AF001EB487 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		9B1D864C2B03316E001EB487 /* NoteEditVC-UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-UI.swift"; sourceTree = "<group>"; };
+		9B1D86502B0348E9001EB487 /* NoteEditVC-DraftNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DraftNote.swift"; sourceTree = "<group>"; };
+		9B1D86552B040A8B001EB487 /* DraftNoteWaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftNoteWaterfallCell.swift; sourceTree = "<group>"; };
+		9B1D86572B040C22001EB487 /* WaterfallVC-Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterfallVC-Config.swift"; sourceTree = "<group>"; };
+		9B1D86592B040C8E001EB487 /* WaterfallVC-LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterfallVC-LoadData.swift"; sourceTree = "<group>"; };
+		9B1D865B2B040D28001EB487 /* WaterfallVC-DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterfallVC-DataSource.swift"; sourceTree = "<group>"; };
+		9B1D865D2B041E05001EB487 /* WaterfallVC-Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterfallVC-Delegate.swift"; sourceTree = "<group>"; };
+		9B1D865F2B0430A7001EB487 /* NoteEditVC-Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-Helper.swift"; sourceTree = "<group>"; };
+		9B1D86612B043723001EB487 /* meVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meVC.swift; sourceTree = "<group>"; };
+		9B9A6AF02B1D6DCB007F04EB /* LC-Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC-Extensions.swift"; sourceTree = "<group>"; };
+		A30C0F7D3AC05B194DA699F0 /* Pods-CampusScoreboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusScoreboard.release.xcconfig"; path = "Target Support Files/Pods-CampusScoreboard/Pods-CampusScoreboard.release.xcconfig"; sourceTree = "<group>"; };
+		D4D20FC79793D18A63EBBB38 /* Pods_CampusScoreboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusScoreboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1C5AEA1274D13AF3D79F0E /* Pods-CampusScoreboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusScoreboard.debug.xcconfig"; path = "Target Support Files/Pods-CampusScoreboard/Pods-CampusScoreboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +94,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC4B6EBCB5F07235F270D65 /* Pods_CampusScoreboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038E5FCA6C1DE89A12455456 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA1C5AEA1274D13AF3D79F0E /* Pods-CampusScoreboard.debug.xcconfig */,
+				A30C0F7D3AC05B194DA699F0 /* Pods-CampusScoreboard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9B1D85FE2B00A660001EB487 = {
 			isa = PBXGroup;
 			children = (
 				9B1D86092B00A660001EB487 /* CampusScoreboard */,
 				9B1D86082B00A660001EB487 /* Products */,
+				038E5FCA6C1DE89A12455456 /* Pods */,
+				AEA58A572A61EC7A9934AF55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +135,81 @@
 				9B1D860C2B00A660001EB487 /* SceneDelegate.swift */,
 				9B1D860E2B00A660001EB487 /* ViewController.swift */,
 				9B1D86102B00A660001EB487 /* Main.storyboard */,
+				9B1D86612B043723001EB487 /* meVC.swift */,
+				9B1D863E2B018B22001EB487 /* NoteEdit */,
+				9B1D86302B00FC23001EB487 /* TabBarC.swift */,
+				9B1D86322B00FEDB001EB487 /* PostVC.swift */,
+				9B1D86522B040571001EB487 /* waterfall */,
+				9B1D862B2B00BB34001EB487 /* Home */,
 				9B1D86162B00A662001EB487 /* Assets.xcassets */,
 				9B1D86182B00A662001EB487 /* LaunchScreen.storyboard */,
 				9B1D861B2B00A662001EB487 /* Info.plist */,
 				9B1D86132B00A660001EB487 /* CampusScoreboard.xcdatamodeld */,
+				9B1D86372B010279001EB487 /* common */,
+				9B1D863F2B018D1D001EB487 /* CampusScoreboard-Header.h */,
 			);
 			path = CampusScoreboard;
+			sourceTree = "<group>";
+		};
+		9B1D862B2B00BB34001EB487 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9B1D86272B00B8D6001EB487 /* CollectionVC.swift */,
+				9B1D86252B00B8C4001EB487 /* DiscoveryVC.swift */,
+				9B1D86232B00B8AE001EB487 /* FollowVC.swift */,
+				9B1D86212B00B275001EB487 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9B1D86372B010279001EB487 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				9B1D86292B00BA0C001EB487 /* Constants.swift */,
+				9B1D86342B010077001EB487 /* Extensions.swift */,
+				9B1D86482B01D6AF001EB487 /* Protocols.swift */,
+				9B9A6AF02B1D6DCB007F04EB /* LC-Extensions.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		9B1D863E2B018B22001EB487 /* NoteEdit */ = {
+			isa = PBXGroup;
+			children = (
+				9B1D86382B017A5B001EB487 /* NoteEditVC.swift */,
+				9B1D863A2B0181CC001EB487 /* photoCell.swift */,
+				9B1D86462B01D1DB001EB487 /* ChannelTableVC.swift */,
+				9B1D86442B01D0AD001EB487 /* ChannelVC.swift */,
+				9B1D863C2B018921001EB487 /* PhotoFooter.swift */,
+				9B1D86402B019482001EB487 /* NoteEditVC-DragDrop.swift */,
+				9B1D86422B01995D001EB487 /* NoteEditVC-CollectionView.swift */,
+				9B1D864C2B03316E001EB487 /* NoteEditVC-UI.swift */,
+				9B1D86502B0348E9001EB487 /* NoteEditVC-DraftNote.swift */,
+				9B1D865F2B0430A7001EB487 /* NoteEditVC-Helper.swift */,
+			);
+			path = NoteEdit;
+			sourceTree = "<group>";
+		};
+		9B1D86522B040571001EB487 /* waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				9B1D862C2B00E927001EB487 /* WaterfallVC.swift */,
+				9B1D862E2B00EE13001EB487 /* WaterfallCell.swift */,
+				9B1D86552B040A8B001EB487 /* DraftNoteWaterfallCell.swift */,
+				9B1D86572B040C22001EB487 /* WaterfallVC-Config.swift */,
+				9B1D86592B040C8E001EB487 /* WaterfallVC-LoadData.swift */,
+				9B1D865B2B040D28001EB487 /* WaterfallVC-DataSource.swift */,
+				9B1D865D2B041E05001EB487 /* WaterfallVC-Delegate.swift */,
+			);
+			path = waterfall;
+			sourceTree = "<group>";
+		};
+		AEA58A572A61EC7A9934AF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4D20FC79793D18A63EBBB38 /* Pods_CampusScoreboard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B1D861E2B00A662001EB487 /* Build configuration list for PBXNativeTarget "CampusScoreboard" */;
 			buildPhases = (
+				ED63F97248D5D706BD538A73 /* [CP] Check Pods Manifest.lock */,
 				9B1D86032B00A660001EB487 /* Sources */,
 				9B1D86042B00A660001EB487 /* Frameworks */,
 				9B1D86052B00A660001EB487 /* Resources */,
+				F65E7F3464062CB096B02E65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +280,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ED63F97248D5D706BD538A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampusScoreboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F65E7F3464062CB096B02E65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusScoreboard/Pods-CampusScoreboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampusScoreboard/Pods-CampusScoreboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampusScoreboard/Pods-CampusScoreboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B1D86032B00A660001EB487 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B1D863D2B018921001EB487 /* PhotoFooter.swift in Sources */,
+				9B1D86332B00FEDB001EB487 /* PostVC.swift in Sources */,
+				9B1D865C2B040D28001EB487 /* WaterfallVC-DataSource.swift in Sources */,
 				9B1D860F2B00A660001EB487 /* ViewController.swift in Sources */,
+				9B1D86602B0430A7001EB487 /* NoteEditVC-Helper.swift in Sources */,
+				9B1D864D2B03316E001EB487 /* NoteEditVC-UI.swift in Sources */,
+				9B1D86492B01D6AF001EB487 /* Protocols.swift in Sources */,
+				9B1D86392B017A5B001EB487 /* NoteEditVC.swift in Sources */,
+				9B1D86452B01D0AD001EB487 /* ChannelVC.swift in Sources */,
+				9B1D86222B00B275001EB487 /* HomeVC.swift in Sources */,
+				9B1D863B2B0181CC001EB487 /* photoCell.swift in Sources */,
+				9B1D862F2B00EE13001EB487 /* WaterfallCell.swift in Sources */,
+				9B1D86282B00B8D6001EB487 /* CollectionVC.swift in Sources */,
+				9B1D86582B040C22001EB487 /* WaterfallVC-Config.swift in Sources */,
+				9B1D862D2B00E927001EB487 /* WaterfallVC.swift in Sources */,
 				9B1D860B2B00A660001EB487 /* AppDelegate.swift in Sources */,
 				9B1D86152B00A660001EB487 /* CampusScoreboard.xcdatamodeld in Sources */,
+				9B9A6AF12B1D6DCB007F04EB /* LC-Extensions.swift in Sources */,
+				9B1D86512B0348E9001EB487 /* NoteEditVC-DraftNote.swift in Sources */,
+				9B1D865A2B040C8F001EB487 /* WaterfallVC-LoadData.swift in Sources */,
+				9B1D86312B00FC23001EB487 /* TabBarC.swift in Sources */,
+				9B1D86262B00B8C4001EB487 /* DiscoveryVC.swift in Sources */,
+				9B1D86432B01995D001EB487 /* NoteEditVC-CollectionView.swift in Sources */,
+				9B1D86412B019482001EB487 /* NoteEditVC-DragDrop.swift in Sources */,
+				9B1D86562B040A8B001EB487 /* DraftNoteWaterfallCell.swift in Sources */,
+				9B1D86622B043723001EB487 /* meVC.swift in Sources */,
+				9B1D86472B01D1DB001EB487 /* ChannelTableVC.swift in Sources */,
 				9B1D860D2B00A660001EB487 /* SceneDelegate.swift in Sources */,
+				9B1D86242B00B8AE001EB487 /* FollowVC.swift in Sources */,
+				9B1D865E2B041E05001EB487 /* WaterfallVC-Delegate.swift in Sources */,
+				9B1D862A2B00BA0C001EB487 /* Constants.swift in Sources */,
+				9B1D86352B010077001EB487 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,19 +505,24 @@
 		};
 		9B1D861F2B00A662001EB487 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1C5AEA1274D13AF3D79F0E /* Pods-CampusScoreboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X9UVA595MB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CampusScoreboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CampusScoreboard;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,27 +530,35 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.CampusScoreboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CampusScoreboard/CampusScoreboard-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9B1D86202B00A662001EB487 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30C0F7D3AC05B194DA699F0 /* Pods-CampusScoreboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X9UVA595MB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CampusScoreboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CampusScoreboard;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,9 +566,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.CampusScoreboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CampusScoreboard/CampusScoreboard-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
